@@ -7,25 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A29D15A1E0039C700FB9476 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A29D1591E0039C700FB9476 /* main.m */; };
-		9A29D15D1E0039C700FB9476 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A29D15C1E0039C700FB9476 /* AppDelegate.m */; };
-		9A29D1601E0039C700FB9476 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A29D15F1E0039C700FB9476 /* ViewController.m */; };
-		9A29D1631E0039C700FB9476 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A29D1611E0039C700FB9476 /* Main.storyboard */; };
-		9A29D1651E0039C700FB9476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A29D1641E0039C700FB9476 /* Assets.xcassets */; };
-		9A29D1681E0039C700FB9476 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A29D1661E0039C700FB9476 /* LaunchScreen.storyboard */; };
+		9A3B398E1E00F7590008B1A6 /* WBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3B398D1E00F7590008B1A6 /* WBTabBarController.m */; };
+		9A3B39971E00FB850008B1A6 /* WBHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3B39961E00FB850008B1A6 /* WBHomeVC.m */; };
+		9A3B399A1E00FB950008B1A6 /* WBMessageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3B39991E00FB950008B1A6 /* WBMessageVC.m */; };
+		9A3B399D1E00FBA20008B1A6 /* WBPublishVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3B399C1E00FBA20008B1A6 /* WBPublishVC.m */; };
+		9A3B39A01E00FBAF0008B1A6 /* WBDiscoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3B399F1E00FBAF0008B1A6 /* WBDiscoverVC.m */; };
+		9A3B39A31E00FBB90008B1A6 /* WBMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3B39A21E00FBB90008B1A6 /* WBMineVC.m */; };
+		9A5F96481E00F31400CB0B22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5F963E1E00F31400CB0B22 /* AppDelegate.m */; };
+		9A5F96491E00F31400CB0B22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A5F963F1E00F31400CB0B22 /* Assets.xcassets */; };
+		9A5F964A1E00F31400CB0B22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A5F96401E00F31400CB0B22 /* LaunchScreen.storyboard */; };
+		9A5F964C1E00F31400CB0B22 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A5F96441E00F31400CB0B22 /* Info.plist */; };
+		9A5F964D1E00F31400CB0B22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5F96451E00F31400CB0B22 /* main.m */; };
+		9A5F96511E00F33D00CB0B22 /* TRTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5F96501E00F33D00CB0B22 /* TRTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9A29D1551E0039C700FB9476 /* TRTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A29D1591E0039C700FB9476 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9A29D15B1E0039C700FB9476 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9A29D15C1E0039C700FB9476 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9A29D15E1E0039C700FB9476 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9A29D15F1E0039C700FB9476 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9A29D1621E0039C700FB9476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9A29D1641E0039C700FB9476 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9A29D1671E0039C700FB9476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9A29D1691E0039C700FB9476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A3B398C1E00F7590008B1A6 /* WBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBTabBarController.h; sourceTree = "<group>"; };
+		9A3B398D1E00F7590008B1A6 /* WBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBTabBarController.m; sourceTree = "<group>"; };
+		9A3B39951E00FB850008B1A6 /* WBHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBHomeVC.h; sourceTree = "<group>"; };
+		9A3B39961E00FB850008B1A6 /* WBHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBHomeVC.m; sourceTree = "<group>"; };
+		9A3B39981E00FB950008B1A6 /* WBMessageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBMessageVC.h; sourceTree = "<group>"; };
+		9A3B39991E00FB950008B1A6 /* WBMessageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBMessageVC.m; sourceTree = "<group>"; };
+		9A3B399B1E00FBA20008B1A6 /* WBPublishVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBPublishVC.h; sourceTree = "<group>"; };
+		9A3B399C1E00FBA20008B1A6 /* WBPublishVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBPublishVC.m; sourceTree = "<group>"; };
+		9A3B399E1E00FBAF0008B1A6 /* WBDiscoverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBDiscoverVC.h; sourceTree = "<group>"; };
+		9A3B399F1E00FBAF0008B1A6 /* WBDiscoverVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBDiscoverVC.m; sourceTree = "<group>"; };
+		9A3B39A11E00FBB90008B1A6 /* WBMineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBMineVC.h; sourceTree = "<group>"; };
+		9A3B39A21E00FBB90008B1A6 /* WBMineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBMineVC.m; sourceTree = "<group>"; };
+		9A5F963D1E00F31400CB0B22 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A5F963E1E00F31400CB0B22 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A5F963F1E00F31400CB0B22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A5F96411E00F31400CB0B22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A5F96441E00F31400CB0B22 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A5F96451E00F31400CB0B22 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A5F964F1E00F33D00CB0B22 /* TRTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRTabBarController.h; sourceTree = "<group>"; };
+		9A5F96501E00F33D00CB0B22 /* TRTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				9A29D1571E0039C700FB9476 /* TRTabBarController */,
+				9A5F963C1E00F31400CB0B22 /* Demo */,
 				9A29D1561E0039C700FB9476 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,25 +76,83 @@
 		9A29D1571E0039C700FB9476 /* TRTabBarController */ = {
 			isa = PBXGroup;
 			children = (
-				9A29D15B1E0039C700FB9476 /* AppDelegate.h */,
-				9A29D15C1E0039C700FB9476 /* AppDelegate.m */,
-				9A29D15E1E0039C700FB9476 /* ViewController.h */,
-				9A29D15F1E0039C700FB9476 /* ViewController.m */,
-				9A29D1611E0039C700FB9476 /* Main.storyboard */,
-				9A29D1641E0039C700FB9476 /* Assets.xcassets */,
-				9A29D1661E0039C700FB9476 /* LaunchScreen.storyboard */,
-				9A29D1691E0039C700FB9476 /* Info.plist */,
-				9A29D1581E0039C700FB9476 /* Supporting Files */,
+				9A5F964F1E00F33D00CB0B22 /* TRTabBarController.h */,
+				9A5F96501E00F33D00CB0B22 /* TRTabBarController.m */,
 			);
 			path = TRTabBarController;
 			sourceTree = "<group>";
 		};
-		9A29D1581E0039C700FB9476 /* Supporting Files */ = {
+		9A3B398F1E00FB1D0008B1A6 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				9A29D1591E0039C700FB9476 /* main.m */,
+				9A3B39911E00FB5E0008B1A6 /* Home */,
+				9A3B39921E00FB5E0008B1A6 /* Message */,
+				9A3B39941E00FB5E0008B1A6 /* Publish */,
+				9A3B39901E00FB5E0008B1A6 /* Discover */,
+				9A3B39931E00FB5E0008B1A6 /* Mine */,
 			);
-			name = "Supporting Files";
+			path = Module;
+			sourceTree = "<group>";
+		};
+		9A3B39901E00FB5E0008B1A6 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				9A3B399E1E00FBAF0008B1A6 /* WBDiscoverVC.h */,
+				9A3B399F1E00FBAF0008B1A6 /* WBDiscoverVC.m */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		9A3B39911E00FB5E0008B1A6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9A3B39951E00FB850008B1A6 /* WBHomeVC.h */,
+				9A3B39961E00FB850008B1A6 /* WBHomeVC.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9A3B39921E00FB5E0008B1A6 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				9A3B39981E00FB950008B1A6 /* WBMessageVC.h */,
+				9A3B39991E00FB950008B1A6 /* WBMessageVC.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		9A3B39931E00FB5E0008B1A6 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				9A3B39A11E00FBB90008B1A6 /* WBMineVC.h */,
+				9A3B39A21E00FBB90008B1A6 /* WBMineVC.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		9A3B39941E00FB5E0008B1A6 /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				9A3B399B1E00FBA20008B1A6 /* WBPublishVC.h */,
+				9A3B399C1E00FBA20008B1A6 /* WBPublishVC.m */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		9A5F963C1E00F31400CB0B22 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				9A3B398F1E00FB1D0008B1A6 /* Module */,
+				9A5F963D1E00F31400CB0B22 /* AppDelegate.h */,
+				9A5F963E1E00F31400CB0B22 /* AppDelegate.m */,
+				9A3B398C1E00F7590008B1A6 /* WBTabBarController.h */,
+				9A3B398D1E00F7590008B1A6 /* WBTabBarController.m */,
+				9A5F963F1E00F31400CB0B22 /* Assets.xcassets */,
+				9A5F96401E00F31400CB0B22 /* LaunchScreen.storyboard */,
+				9A5F96441E00F31400CB0B22 /* Info.plist */,
+				9A5F96451E00F31400CB0B22 /* main.m */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +213,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A29D1681E0039C700FB9476 /* LaunchScreen.storyboard in Resources */,
-				9A29D1651E0039C700FB9476 /* Assets.xcassets in Resources */,
-				9A29D1631E0039C700FB9476 /* Main.storyboard in Resources */,
+				9A5F964C1E00F31400CB0B22 /* Info.plist in Resources */,
+				9A5F96491E00F31400CB0B22 /* Assets.xcassets in Resources */,
+				9A5F964A1E00F31400CB0B22 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,27 +226,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A29D1601E0039C700FB9476 /* ViewController.m in Sources */,
-				9A29D15D1E0039C700FB9476 /* AppDelegate.m in Sources */,
-				9A29D15A1E0039C700FB9476 /* main.m in Sources */,
+				9A5F96511E00F33D00CB0B22 /* TRTabBarController.m in Sources */,
+				9A3B39971E00FB850008B1A6 /* WBHomeVC.m in Sources */,
+				9A3B39A01E00FBAF0008B1A6 /* WBDiscoverVC.m in Sources */,
+				9A5F964D1E00F31400CB0B22 /* main.m in Sources */,
+				9A3B399A1E00FB950008B1A6 /* WBMessageVC.m in Sources */,
+				9A3B398E1E00F7590008B1A6 /* WBTabBarController.m in Sources */,
+				9A3B399D1E00FBA20008B1A6 /* WBPublishVC.m in Sources */,
+				9A3B39A31E00FBB90008B1A6 /* WBMineVC.m in Sources */,
+				9A5F96481E00F31400CB0B22 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9A29D1611E0039C700FB9476 /* Main.storyboard */ = {
+		9A5F96401E00F31400CB0B22 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9A29D1621E0039C700FB9476 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9A29D1661E0039C700FB9476 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9A29D1671E0039C700FB9476 /* Base */,
+				9A5F96411E00F31400CB0B22 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -270,7 +344,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TRTabBarController/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.toryznoco.TRTabBarController;
@@ -282,7 +356,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TRTabBarController/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.toryznoco.TRTabBarController;
@@ -309,6 +383,7 @@
 				9A29D16E1E0039C700FB9476 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
